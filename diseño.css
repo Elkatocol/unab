@@ -1,0 +1,115 @@
+h1 {
+    font-family:serif;
+    font-size: 150%;
+  }
+
+ 
+table{
+  border: 1;
+}
+
+th{
+  background-color: darkgray;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*sintaxis para etiquetas ya existentes*/
+td{
+  background-color: lightcyan;
+}
+body{
+  background-color: white;
+}
+
+/*sintaxis para mas de una etiqueta*/
+.diseño_caja1{
+  width: 28%;
+  height: 30%;
+  display: inline-block;
+  /*display: flex;*/
+  border-style: solid;
+  background-color:white;
+  /*margin: 1% 1% 1% 1%;*/
+  margin: 10px 10px 10px 10px;
+  padding: 1% 0 0 1%;
+}
+/*sintaxis para una sola etiqueta*/
+#parrafo1{
+  color:cadetblue;
+}
+
+.tituloyicono{
+  display: flex;
+}
+
+.cajatitulo{
+  width: 70%;
+  height: 60px;
+  background-color:#ffffff;
+  text-align: center;
+}
+
+.cajaicono{
+  width: 30%;
+  height: 60px;
+  background-color: #ffffff;
+  text-align: right;
+
+}
+
+.iconopersonalizado{
+  font-size: 40px;
+  color:darkblue;
+}
+
+.iconopersonalizado2{
+  font-size: 40px;
+  color:slateblue;
+}
+
+.iconopersonalizado3{
+  font-size: 40px;
+  color:steelblue;
+}
+
+.botondiv{
+  background-color: orange;
+  width: 150px;
+  height: 40px;
+  color: #ffffff;
+  align-items:right;
+  border-color: orange;
+}
+
+.botonderecha{
+  display: flex;
+  height: 10%;
+  justify-content: right;
+  
+  
+}
+
+.menu ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.menu li a{
+  display: block;
+  background-color:steelblue;
+  color: #ffffff;
+  width: 200px;
+  height: 40px;
+  text-decoration: none;
+  border-style: solid;
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+}
+
+.menu a:hover{
+  background-color: midnightblue;
+   color:moccasin;
+}
+.cambioselect{
+  width: 80%;
+}
